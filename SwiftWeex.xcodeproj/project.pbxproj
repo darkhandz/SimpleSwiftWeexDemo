@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		703B7BA41FFFD71C0015F78C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703B7BA31FFFD71C0015F78C /* Constant.swift */; };
+		7065309D1FFF44D700450DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706530981FFF44D700450DF8 /* Assets.xcassets */; };
+		7065309F1FFF44D700450DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065309B1FFF44D700450DF8 /* AppDelegate.swift */; };
+		706530A01FFF44D700450DF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065309C1FFF44D700450DF8 /* ViewController.swift */; };
+		706530A21FFF450900450DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706530A11FFF450900450DF8 /* LaunchScreen.storyboard */; };
+		706530A41FFF740000450DF8 /* bundlejs in Resources */ = {isa = PBXBuildFile; fileRef = 706530A31FFF740000450DF8 /* bundlejs */; };
+		706530A91FFF7A8900450DF8 /* WXImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706530A81FFF7A8900450DF8 /* WXImageLoader.swift */; };
+		706530AC1FFF7BA000450DF8 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706530AB1FFF7BA000450DF8 /* Log.swift */; };
+		C5D592D8904AE7E7BF6FA339 /* Pods_SwiftWeex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ACA773EAF496A7745EC42E /* Pods_SwiftWeex.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22C2F13DE65E2217752497A5 /* Pods-SwiftWeex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftWeex.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftWeex/Pods-SwiftWeex.release.xcconfig"; sourceTree = "<group>"; };
+		26ACA773EAF496A7745EC42E /* Pods_SwiftWeex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWeex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		703B7BA31FFFD71C0015F78C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		706530821FFF440D00450DF8 /* SwiftWeex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWeex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		706530981FFF44D700450DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		706530991FFF44D700450DF8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7065309B1FFF44D700450DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7065309C1FFF44D700450DF8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		706530A11FFF450900450DF8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		706530A31FFF740000450DF8 /* bundlejs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bundlejs; sourceTree = "<group>"; };
+		706530A61FFF762200450DF8 /* SwiftWeex-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftWeex-Bridging-Header.h"; sourceTree = "<group>"; };
+		706530A81FFF7A8900450DF8 /* WXImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXImageLoader.swift; sourceTree = "<group>"; };
+		706530AB1FFF7BA000450DF8 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		AF3B5B655D95B700FEA1CF39 /* Pods-SwiftWeex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftWeex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftWeex/Pods-SwiftWeex.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7065307F1FFF440D00450DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D592D8904AE7E7BF6FA339 /* Pods_SwiftWeex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		706530791FFF440D00450DF8 = {
+			isa = PBXGroup;
+			children = (
+				706530841FFF440D00450DF8 /* SwiftWeex */,
+				706530831FFF440D00450DF8 /* Products */,
+				F0B097F1420C6C1497D0BA17 /* Pods */,
+				B4F39110660DE04757553ABF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		706530831FFF440D00450DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				706530821FFF440D00450DF8 /* SwiftWeex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		706530841FFF440D00450DF8 /* SwiftWeex */ = {
+			isa = PBXGroup;
+			children = (
+				706530AA1FFF7B9400450DF8 /* Util */,
+				706530971FFF44D700450DF8 /* Resources */,
+				7065309A1FFF44D700450DF8 /* Source */,
+				706530A51FFF75C100450DF8 /* Other */,
+			);
+			path = SwiftWeex;
+			sourceTree = "<group>";
+		};
+		706530971FFF44D700450DF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				706530A31FFF740000450DF8 /* bundlejs */,
+				706530981FFF44D700450DF8 /* Assets.xcassets */,
+				706530991FFF44D700450DF8 /* Info.plist */,
+				706530A11FFF450900450DF8 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7065309A1FFF44D700450DF8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				706530A71FFF79DA00450DF8 /* WeexComponents */,
+				7065309B1FFF44D700450DF8 /* AppDelegate.swift */,
+				7065309C1FFF44D700450DF8 /* ViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		706530A51FFF75C100450DF8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				706530A61FFF762200450DF8 /* SwiftWeex-Bridging-Header.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		706530A71FFF79DA00450DF8 /* WeexComponents */ = {
+			isa = PBXGroup;
+			children = (
+				706530A81FFF7A8900450DF8 /* WXImageLoader.swift */,
+			);
+			path = WeexComponents;
+			sourceTree = "<group>";
+		};
+		706530AA1FFF7B9400450DF8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				706530AB1FFF7BA000450DF8 /* Log.swift */,
+				703B7BA31FFFD71C0015F78C /* Constant.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B4F39110660DE04757553ABF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26ACA773EAF496A7745EC42E /* Pods_SwiftWeex.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0B097F1420C6C1497D0BA17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF3B5B655D95B700FEA1CF39 /* Pods-SwiftWeex.debug.xcconfig */,
+				22C2F13DE65E2217752497A5 /* Pods-SwiftWeex.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		706530811FFF440D00450DF8 /* SwiftWeex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706530941FFF440D00450DF8 /* Build configuration list for PBXNativeTarget "SwiftWeex" */;
+			buildPhases = (
+				8CFA0BC7CCFEA57175830883 /* [CP] Check Pods Manifest.lock */,
+				7065307E1FFF440D00450DF8 /* Sources */,
+				7065307F1FFF440D00450DF8 /* Frameworks */,
+				706530801FFF440D00450DF8 /* Resources */,
+				3CD883F8C6A235F4F95B1912 /* [CP] Embed Pods Frameworks */,
+				0BB9DD6E8B54BD774476CE98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftWeex;
+			productName = SwiftWeex;
+			productReference = 706530821FFF440D00450DF8 /* SwiftWeex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7065307A1FFF440D00450DF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = delite;
+				TargetAttributes = {
+					706530811FFF440D00450DF8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7065307D1FFF440D00450DF8 /* Build configuration list for PBXProject "SwiftWeex" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 706530791FFF440D00450DF8;
+			productRefGroup = 706530831FFF440D00450DF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706530811FFF440D00450DF8 /* SwiftWeex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		706530801FFF440D00450DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7065309D1FFF44D700450DF8 /* Assets.xcassets in Resources */,
+				706530A21FFF450900450DF8 /* LaunchScreen.storyboard in Resources */,
+				706530A41FFF740000450DF8 /* bundlejs in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BB9DD6E8B54BD774476CE98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftWeex/Pods-SwiftWeex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CD883F8C6A235F4F95B1912 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftWeex/Pods-SwiftWeex-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/WeexSDK/WeexSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WeexSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftWeex/Pods-SwiftWeex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CFA0BC7CCFEA57175830883 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftWeex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7065307E1FFF440D00450DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706530A01FFF44D700450DF8 /* ViewController.swift in Sources */,
+				7065309F1FFF44D700450DF8 /* AppDelegate.swift in Sources */,
+				703B7BA41FFFD71C0015F78C /* Constant.swift in Sources */,
+				706530AC1FFF7BA000450DF8 /* Log.swift in Sources */,
+				706530A91FFF7A8900450DF8 /* WXImageLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		706530921FFF440D00450DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		706530931FFF440D00450DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		706530951FFF440D00450DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF3B5B655D95B700FEA1CF39 /* Pods-SwiftWeex.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftWeex/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG_LOG";
+				PRODUCT_BUNDLE_IDENTIFIER = ltd.delite.SwiftWeex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/SwiftWeex/Other/SwiftWeex-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		706530961FFF440D00450DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C2F13DE65E2217752497A5 /* Pods-SwiftWeex.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftWeex/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ltd.delite.SwiftWeex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/SwiftWeex/Other/SwiftWeex-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7065307D1FFF440D00450DF8 /* Build configuration list for PBXProject "SwiftWeex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706530921FFF440D00450DF8 /* Debug */,
+				706530931FFF440D00450DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706530941FFF440D00450DF8 /* Build configuration list for PBXNativeTarget "SwiftWeex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706530951FFF440D00450DF8 /* Debug */,
+				706530961FFF440D00450DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7065307A1FFF440D00450DF8 /* Project object */;
+}
