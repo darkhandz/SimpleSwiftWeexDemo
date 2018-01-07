@@ -1,0 +1,10 @@
+source 'git@github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+# inhibit_all_warnings!
+def common
+		pod 'WeexSDK'
+	pod 'AMap3DMap', '4.6.1'
+end
+target 'Weexplugin' do
+	common
+end

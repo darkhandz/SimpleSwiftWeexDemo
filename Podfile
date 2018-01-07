@@ -8,5 +8,6 @@ target 'SwiftWeex' do
   pod 'WeexPluginLoader'
   pod 'SDWebImage', '3.7.5'
   pod 'SocketRocket', '0.5.1'
+  pod 'AMap3DMap', '4.6.1'
 
 end

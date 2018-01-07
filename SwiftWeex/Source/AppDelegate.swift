@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         vc.jsURL = URL(string: WeexBundleFolder + "index.js")
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white
-        window?.rootViewController = UINavigationController(rootViewController: vc)
+        window?.rootViewController = vc//UINavigationController(rootViewController: vc)
         window?.makeKeyAndVisible()
         return true
     }
@@ -47,6 +47,9 @@ extension AppDelegate {
         
         // 初始化 WeexSDK
         WXSDKEngine.initSDKEnvironment()
+        
+        // 加载通过weex plugin add xxx添加的插件
+        WeexPluginManager.registerWeexPlugin()
     }
 }
 

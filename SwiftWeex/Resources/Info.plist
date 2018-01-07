@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>云升停车</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -20,6 +22,25 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>从相机拍照图片</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>获取你的位置，显示周围的服务</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>获取你的位置，显示周围的服务</string>
+	<key>NSLocationUsageDescription</key>
+	<string>获取你的位置，显示周围的服务</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>获取你的位置，显示周围的服务</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>拍照的相片需要保存到相册</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>从相册选择图片</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -37,10 +58,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
 </dict>
 </plist>

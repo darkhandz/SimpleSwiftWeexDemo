@@ -9,6 +9,7 @@
 #ifndef SwiftWeex_Bridging_Header_pch
 #define SwiftWeex_Bridging_Header_pch
 
-
+#import "WeexPluginManager.h"
+#import "WXMapViewModule.h"
 
 #endif /* SwiftWeex_Bridging_Header_pch */

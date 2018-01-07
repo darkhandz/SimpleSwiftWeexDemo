@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     fileprivate var instance: WXSDKInstance?
     fileprivate var weexView = UIView()
+    fileprivate var currentFrame = CGRect.zero
 
     
     override func viewDidLoad() {
@@ -24,6 +25,7 @@ class ViewController: UIViewController {
         view.backgroundColor = .white
         navigationController?.setNavigationBarHidden(true, animated: false)
         render()
+        LocationUtil.shared.requestLocationAuth()
     }
     
     deinit {
@@ -42,6 +44,19 @@ class ViewController: UIViewController {
         updateInstanceState(to: .WeexInstanceDisappear)
     }
     
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        var insets = UIEdgeInsets.zero
+        if #available(iOS 11.0, *) {
+            insets = view.safeAreaInsets
+        } else {
+            insets.top = UIApplication.shared.statusBarFrame.size.height
+        }
+        let width = view.bounds.width - insets.left - insets.right
+        let height = view.bounds.height - insets.top - insets.bottom
+        currentFrame = CGRect(x: insets.left, y: insets.top, width: width, height: height)
+        instance?.frame = currentFrame
+    }
     
     
     func render() {
@@ -52,7 +67,7 @@ class ViewController: UIViewController {
         instance?.destroy()
         instance = WXSDKInstance()
         instance?.viewController = self
-        instance?.frame = CGRect(origin: .zero, size: view.bounds.size)
+        instance?.frame = currentFrame
         instance?.onCreate = { [unowned self] view in
             guard let v = view else { return }
             self.weexView.removeFromSuperview()
