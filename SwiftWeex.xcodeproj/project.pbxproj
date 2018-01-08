@@ -36,6 +36,19 @@
 		70A55EBA2000F61000062910 /* Weexplugin-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70A55EA62000F61000062910 /* Weexplugin-Info.plist */; };
 		70A55EBC20011ED900062910 /* LocationManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A55EBB20011ED900062910 /* LocationManager+Extension.swift */; };
 		70A7F5AB2001C9C40098402F /* WXMapViewModule+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7F5AA2001C9C40098402F /* WXMapViewModule+Extension.swift */; };
+		70A7F5B720024BB50098402F /* WXSystemUtilModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A7F5B620024BB50098402F /* WXSystemUtilModule.m */; };
+		70A7F5B920024D8F0098402F /* WXSystemUtilModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7F5B820024D8F0098402F /* WXSystemUtilModule.swift */; };
+		70A7F5BB200262300098402F /* WXImagePickerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7F5BA200262300098402F /* WXImagePickerModule.swift */; };
+		70A7F5BE2002624B0098402F /* WXImagePickerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A7F5BD2002624B0098402F /* WXImagePickerModule.m */; };
+		70A7F5C1200267620098402F /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7F5C0200267620098402F /* UIImage+Extension.swift */; };
+		70A7F5C620031BB00098402F /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A7F5C420031BAF0098402F /* AlipaySDK.framework */; };
+		70A7F5C720031BB00098402F /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 70A7F5C520031BB00098402F /* AlipaySDK.bundle */; };
+		70A7F5C920031BD70098402F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A7F5C820031BD70098402F /* CoreMotion.framework */; };
+		70A7F5CC2003204D0098402F /* WXAlipayModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A7F5CB2003204D0098402F /* WXAlipayModule.m */; };
+		70A7F5CE200322470098402F /* WXAlipayModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7F5CD200322470098402F /* WXAlipayModule.swift */; };
+		70A7F5D1200342130098402F /* WXWechatModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A7F5D0200342130098402F /* WXWechatModule.m */; };
+		70A7F5D32003426D0098402F /* WXWechatModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7F5D22003426D0098402F /* WXWechatModule.swift */; };
+		70A7F5DA200378020098402F /* AMapLocationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7F5D9200378020098402F /* AMapLocationUtil.swift */; };
 		C5D592D8904AE7E7BF6FA339 /* Pods_SwiftWeex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ACA773EAF496A7745EC42E /* Pods_SwiftWeex.framework */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +105,23 @@
 		70A55EA72000F61000062910 /* Weexplugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weexplugin.h; sourceTree = "<group>"; };
 		70A55EBB20011ED900062910 /* LocationManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationManager+Extension.swift"; sourceTree = "<group>"; };
 		70A7F5AA2001C9C40098402F /* WXMapViewModule+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WXMapViewModule+Extension.swift"; sourceTree = "<group>"; };
+		70A7F5B520024BB50098402F /* WXSystemUtilModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSystemUtilModule.h; sourceTree = "<group>"; };
+		70A7F5B620024BB50098402F /* WXSystemUtilModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSystemUtilModule.m; sourceTree = "<group>"; };
+		70A7F5B820024D8F0098402F /* WXSystemUtilModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXSystemUtilModule.swift; sourceTree = "<group>"; };
+		70A7F5BA200262300098402F /* WXImagePickerModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXImagePickerModule.swift; sourceTree = "<group>"; };
+		70A7F5BC2002624B0098402F /* WXImagePickerModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXImagePickerModule.h; sourceTree = "<group>"; };
+		70A7F5BD2002624B0098402F /* WXImagePickerModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXImagePickerModule.m; sourceTree = "<group>"; };
+		70A7F5C0200267620098402F /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		70A7F5C420031BAF0098402F /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		70A7F5C520031BB00098402F /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		70A7F5C820031BD70098402F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		70A7F5CA2003204D0098402F /* WXAlipayModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXAlipayModule.h; sourceTree = "<group>"; };
+		70A7F5CB2003204D0098402F /* WXAlipayModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXAlipayModule.m; sourceTree = "<group>"; };
+		70A7F5CD200322470098402F /* WXAlipayModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXAlipayModule.swift; sourceTree = "<group>"; };
+		70A7F5CF200342130098402F /* WXWechatModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXWechatModule.h; sourceTree = "<group>"; };
+		70A7F5D0200342130098402F /* WXWechatModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXWechatModule.m; sourceTree = "<group>"; };
+		70A7F5D22003426D0098402F /* WXWechatModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXWechatModule.swift; sourceTree = "<group>"; };
+		70A7F5D9200378020098402F /* AMapLocationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMapLocationUtil.swift; sourceTree = "<group>"; };
 		AF3B5B655D95B700FEA1CF39 /* Pods-SwiftWeex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftWeex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftWeex/Pods-SwiftWeex.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,7 +130,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A7F5C920031BD70098402F /* CoreMotion.framework in Frameworks */,
 				C5D592D8904AE7E7BF6FA339 /* Pods_SwiftWeex.framework in Frameworks */,
+				70A7F5C620031BB00098402F /* AlipaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +160,8 @@
 		706530841FFF440D00450DF8 /* SwiftWeex */ = {
 			isa = PBXGroup;
 			children = (
+				70A7F5C220031B960098402F /* Libs */,
+				70A7F5BF200267520098402F /* Extension */,
 				706530AA1FFF7B9400450DF8 /* Util */,
 				706530971FFF44D700450DF8 /* Resources */,
 				7065309A1FFF44D700450DF8 /* Source */,
@@ -171,6 +205,18 @@
 			children = (
 				706530A81FFF7A8900450DF8 /* WXImageLoader.swift */,
 				70A7F5AA2001C9C40098402F /* WXMapViewModule+Extension.swift */,
+				70A7F5B520024BB50098402F /* WXSystemUtilModule.h */,
+				70A7F5B620024BB50098402F /* WXSystemUtilModule.m */,
+				70A7F5B820024D8F0098402F /* WXSystemUtilModule.swift */,
+				70A7F5BC2002624B0098402F /* WXImagePickerModule.h */,
+				70A7F5BD2002624B0098402F /* WXImagePickerModule.m */,
+				70A7F5BA200262300098402F /* WXImagePickerModule.swift */,
+				70A7F5CA2003204D0098402F /* WXAlipayModule.h */,
+				70A7F5CB2003204D0098402F /* WXAlipayModule.m */,
+				70A7F5CD200322470098402F /* WXAlipayModule.swift */,
+				70A7F5CF200342130098402F /* WXWechatModule.h */,
+				70A7F5D0200342130098402F /* WXWechatModule.m */,
+				70A7F5D22003426D0098402F /* WXWechatModule.swift */,
 			);
 			path = WeexComponents;
 			sourceTree = "<group>";
@@ -181,6 +227,7 @@
 				706530AB1FFF7BA000450DF8 /* Log.swift */,
 				703B7BA31FFFD71C0015F78C /* Constant.swift */,
 				70A55EBB20011ED900062910 /* LocationManager+Extension.swift */,
+				70A7F5D9200378020098402F /* AMapLocationUtil.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -278,9 +325,35 @@
 			path = WeexPlugin;
 			sourceTree = "<group>";
 		};
+		70A7F5BF200267520098402F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				70A7F5C0200267620098402F /* UIImage+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		70A7F5C220031B960098402F /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				70A7F5C320031BA40098402F /* Alipay */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		70A7F5C320031BA40098402F /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				70A7F5C520031BB00098402F /* AlipaySDK.bundle */,
+				70A7F5C420031BAF0098402F /* AlipaySDK.framework */,
+			);
+			path = Alipay;
+			sourceTree = "<group>";
+		};
 		B4F39110660DE04757553ABF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70A7F5C820031BD70098402F /* CoreMotion.framework */,
 				26ACA773EAF496A7745EC42E /* Pods_SwiftWeex.framework */,
 			);
 			name = Frameworks;
@@ -331,6 +404,11 @@
 					706530811FFF440D00450DF8 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -357,6 +435,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A7F5C720031BB00098402F /* AlipaySDK.bundle in Resources */,
 				7065309D1FFF44D700450DF8 /* Assets.xcassets in Resources */,
 				70A55EB62000F61000062910 /* WeexpluginConfig.xml in Resources */,
 				706530A21FFF450900450DF8 /* LaunchScreen.storyboard in Resources */,
@@ -375,11 +454,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftWeex/Pods-SwiftWeex-resources.sh",
-				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AMap3DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AMapNavi-NO-IDFA/AMapNaviKit.framework/AMapNavi.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMapNavi.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -437,26 +518,36 @@
 				70A55EAC2000F61000062910 /* WXConvert+AMapKit.m in Sources */,
 				70A55EB32000F61000062910 /* WXMapViewComponent.m in Sources */,
 				70A55EB72000F61000062910 /* WeexPluginConfigParser.m in Sources */,
+				70A7F5D32003426D0098402F /* WXWechatModule.swift in Sources */,
 				706530A01FFF44D700450DF8 /* ViewController.swift in Sources */,
 				70A55EB02000F61000062910 /* WXMapPolygonComponent.m in Sources */,
 				70A55EB92000F61000062910 /* WeexPluginManager.m in Sources */,
 				7065309F1FFF44D700450DF8 /* AppDelegate.swift in Sources */,
 				70A55EAD2000F61000062910 /* WXMapCircleComponent.m in Sources */,
+				70A7F5B920024D8F0098402F /* WXSystemUtilModule.swift in Sources */,
+				70A7F5B720024BB50098402F /* WXSystemUtilModule.m in Sources */,
 				703B7BA41FFFD71C0015F78C /* Constant.swift in Sources */,
 				70A55EAF2000F61000062910 /* WXMapInfoWindowComponent.m in Sources */,
 				70A55EAE2000F61000062910 /* WXMapInfoWindow.m in Sources */,
+				70A7F5DA200378020098402F /* AMapLocationUtil.swift in Sources */,
 				70A55EA82000F61000062910 /* WXImgLoaderImpl.m in Sources */,
 				706530AC1FFF7BA000450DF8 /* Log.swift in Sources */,
 				70A55EAB2000F61000062910 /* NSString+WXMap.m in Sources */,
 				70A55EA92000F61000062910 /* NSArray+WXMap.m in Sources */,
 				70A55EB82000F61000062910 /* WeexPluginLoader.m in Sources */,
+				70A7F5BB200262300098402F /* WXImagePickerModule.swift in Sources */,
+				70A7F5CC2003204D0098402F /* WXAlipayModule.m in Sources */,
 				70A55EAA2000F61000062910 /* NSDictionary+WXMap.m in Sources */,
 				70A55EB12000F61000062910 /* WXMapPolylineComponent.m in Sources */,
+				70A7F5C1200267620098402F /* UIImage+Extension.swift in Sources */,
 				70A7F5AB2001C9C40098402F /* WXMapViewModule+Extension.swift in Sources */,
 				70A55EB22000F61000062910 /* WXMapRenderer.m in Sources */,
 				70A55EB42000F61000062910 /* WXMapViewMarkerComponent.m in Sources */,
 				70A55EB52000F61000062910 /* WXMapViewModule.m in Sources */,
+				70A7F5D1200342130098402F /* WXWechatModule.m in Sources */,
+				70A7F5BE2002624B0098402F /* WXImagePickerModule.m in Sources */,
 				706530A91FFF7A8900450DF8 /* WXImageLoader.swift in Sources */,
+				70A7F5CE200322470098402F /* WXAlipayModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,9 +667,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftWeex/Libs/Alipay",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftWeex/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-D DEBUG_LOG";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D DEBUG_LOG";
 				PRODUCT_BUNDLE_IDENTIFIER = ltd.delite.SwiftWeex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/SwiftWeex/Other/SwiftWeex-Bridging-Header.h";
@@ -593,6 +688,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftWeex/Libs/Alipay",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftWeex/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ltd.delite.SwiftWeex;

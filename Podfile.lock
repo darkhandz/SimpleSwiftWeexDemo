@@ -1,11 +1,19 @@
 PODS:
-  - AMap3DMap (4.6.1):
-    - AMapFoundation (~> 1.3)
-  - AMapFoundation (1.4.3)
+  - AMap3DMap-NO-IDFA (5.7.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapFoundation-NO-IDFA (1.4.3)
+  - AMapLocation-NO-IDFA (2.4.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapNavi-NO-IDFA (5.4.0):
+    - AMap3DMap-NO-IDFA (>= 5.6.0)
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapSearch-NO-IDFA (5.4.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
   - SDWebImage (3.7.5):
     - SDWebImage/Core (= 3.7.5)
   - SDWebImage/Core (3.7.5)
   - SocketRocket (0.5.1)
+  - WechatOpenSDK (1.8.1)
   - WeexPluginLoader (0.0.1.9.1):
     - WeexSDK
   - WeexSDK (0.17.0)
@@ -13,22 +21,29 @@ PODS:
     - WeexSDK
 
 DEPENDENCIES:
-  - AMap3DMap (= 4.6.1)
+  - AMapLocation-NO-IDFA (~> 2.4.0)
+  - AMapNavi-NO-IDFA (~> 5.4.0)
+  - AMapSearch-NO-IDFA (~> 5.4.0)
   - SDWebImage (= 3.7.5)
   - SocketRocket (= 0.5.1)
+  - WechatOpenSDK (~> 1.8.1)
   - WeexPluginLoader
   - WeexSDK
   - WXDevtool
 
 SPEC CHECKSUMS:
-  AMap3DMap: eb6656fb441ed7eb310b3c121032e947d4d649e5
-  AMapFoundation: 973682cfe60b92efd73a8ef8f1144fa0fa8e1296
+  AMap3DMap-NO-IDFA: 634ad0e0e5314b4a84180e6dcfb063bb66e1b2a2
+  AMapFoundation-NO-IDFA: b6cbefab250ae8ab2e31aa9bb3dbbb98137cd76f
+  AMapLocation-NO-IDFA: 9493012d3241a7d551942c7c1e1069b51f295083
+  AMapNavi-NO-IDFA: 1cfa3ab39cb2bfafc99569cbf5e0d5ec7fa0eff9
+  AMapSearch-NO-IDFA: efddeaa3f62f6adb8f0170ebff3d799bcf637ade
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  WechatOpenSDK: 491d965d79335070328571d3e79f714549e79a5e
   WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
   WeexSDK: ad8443f4290ef7cb241bbd4c03b02d9dfc9fdca2
   WXDevtool: 6c837383e778a9442ee500db4069a95be321dac6
 
-PODFILE CHECKSUM: 39c03dd07328822b7f97cf403db0b69c85a4ee3e
+PODFILE CHECKSUM: 13e20db924d8cdc41865e3bf378138e5550b456c
 
 COCOAPODS: 1.4.0.rc.1

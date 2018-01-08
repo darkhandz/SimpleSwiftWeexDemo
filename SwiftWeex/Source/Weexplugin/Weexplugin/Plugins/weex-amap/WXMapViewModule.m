@@ -18,6 +18,8 @@ WX_EXPORT_METHOD(@selector(getUserLocation:callback:))
 WX_EXPORT_METHOD(@selector(getLineDistance:marker:callback:))
 WX_EXPORT_METHOD_SYNC(@selector(polygonContainsMarker:ref:callback:))
 WX_EXPORT_METHOD(@selector(getUserLocation:))
+WX_EXPORT_METHOD(@selector(openAmapNavi::callback:))
+WX_EXPORT_METHOD(@selector(poiSearch:::callback:))
 
 - (void)getUserLocation:(NSString *)elemRef callback:(WXModuleCallback)callback
 {

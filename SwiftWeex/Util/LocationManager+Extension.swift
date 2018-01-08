@@ -25,7 +25,7 @@ class LocationUtil: NSObject {
         let status = CLLocationManager.authorizationStatus()
         switch status {
         case .notDetermined:
-            locationMgr.requestWhenInUseAuthorization()
+            locationMgr.requestAlwaysAuthorization()
         case .authorizedWhenInUse, .authorizedAlways:
             locationMgr.startUpdatingLocation()
         case .denied, .restricted:
